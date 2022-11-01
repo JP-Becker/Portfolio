@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CONTAINER */
+
+.page-wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* HEADER */
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.nav-itens {
+    display: flex;
+    gap: 50px;
+}
+
+.link-nav {
+    font-family: 'DM sans';
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #666666;
+}
+
+.link-nav:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background: linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 20px;
+}
+
+/* MAIN */
+
+.secao-principal {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    /* margin: 0 auto; */
+}
+
+section {
+    margin-bottom: 32px
+}
+
+.title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 42px;
+    color: #42446E;
+}
+
+.text-about {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+.job {
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.job-title {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.shift {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D7FFE0;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 12px;
+    width: 90px;
+    color: #018C0F;
+    border-radius: 108px;
+}
+
+.company {
+    display: flex;
+    gap: 24px;
+    margin-top: 10px;
+}
+
+.company-name {
+    display: flex;
+    color: #A7A7A7;
+    gap: 6px;
+}
+
+.company-location {
+    display: flex;
+    color: #A7A7A7;
+    gap: 6px;
+}
+
+.when {
+    margin-left: 420.5px;
+    color: #A7A7A7;
+}
+
+.line-img {
+    width: 750px;
+    margin-top: 24px;
+}
+
+.when-exchange {
+    color: #A7A7A7;
+    margin-left: 252px;
+}
+
+.when-dev {
+    margin-left: 410px;
+    color: #A7A7A7;
+}
